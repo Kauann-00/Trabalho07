@@ -10,10 +10,8 @@ public class Matriz2x4 {
         final int LINHAS = 2;
         final int COLUNAS = 4;
         
-        // Cria a matriz 2x4
         int[][] matriz = new int[LINHAS][COLUNAS];
         
-        // Lê os elementos da matriz
         System.out.println("Digite os elementos da matriz 2x4:");
         for (int i = 0; i < LINHAS; i++) {
             for (int j = 0; j < COLUNAS; j++) {
